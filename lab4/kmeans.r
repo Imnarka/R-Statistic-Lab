@@ -10,3 +10,4 @@ k=3
 seeds_clusters <- kmeans(matr_data[,1:M], k)
 # Посмотрим, что получилось
 seeds_clusters
+seeds_clusters$withinss
